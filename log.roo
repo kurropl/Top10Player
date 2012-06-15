@@ -1,0 +1,35 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-15 09:16:11
+project --topLevelPackage com.meplayer.scouting
+persistence  setup --provider HIBERNATE --database MYSQL --databaseName scout --hostName localhost --password admin --persistenceUnit test --transactionManager scoutTransactionManager --userName root
+entity jpa --class com.meplayer.scouting.Jugador
+field string nombre
+field string apellidos
+field string edad
+field string club
+field string fin_contrato
+field string anterior_club
+field string caracteristicas
+field string virtudes
+field string carencias
+field string agente
+entity jpa --class com.meplayer.scouting.Partido
+field string resultado
+field string cub_local
+field string club_visitante
+field string competicion
+field string fase
+field string jornada
+field string fecha
+entity jpa --class com.meplayer.scouting.Agente 
+field string nombre
+field string apellidos
+field string mail
+field string telf_movil
+field string telf_fijo
+field string direccion
+field string num_licencia
+vaadin setup --applicationPackage ~.web --baseName ScoutFind --themeName scout --useJpaContainer false
+vaadin generate all --package ~.web.ui --visuallyComposable true
+// script scout_vaadin_conMY.txt
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-15 09:29:50

@@ -1,0 +1,28 @@
+<aspectj>
+<aspects>
+<aspect name="com.meplayer.scouting.Jugador_Roo_ToString"/>
+<aspect name="com.meplayer.scouting.Jugador_Roo_Jpa_Entity"/>
+<aspect name="com.meplayer.scouting.Partido_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.meplayer.scouting.Partido_Roo_ToString"/>
+<aspect name="com.meplayer.scouting.Partido_Roo_Jpa_Entity"/>
+<aspect name="com.meplayer.scouting.web.ScoutFindEntityManagerView_Roo_VaadinEntityManagerView"/>
+<aspect name="com.meplayer.scouting.web.ui.AgenteForm_Roo_VaadinVisuallyComposableEntityForm"/>
+<aspect name="com.meplayer.scouting.Partido_Roo_Configurable"/>
+<aspect name="com.meplayer.scouting.Agente_Roo_Jpa_Entity"/>
+<aspect name="com.meplayer.scouting.Partido_Roo_JavaBean"/>
+<aspect name="com.meplayer.scouting.web.AbstractEntityView_Roo_AbstractEntityView"/>
+<aspect name="com.meplayer.scouting.Agente_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.meplayer.scouting.Agente_Roo_Configurable"/>
+<aspect name="com.meplayer.scouting.Jugador_Roo_Configurable"/>
+<aspect name="com.meplayer.scouting.Jugador_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.meplayer.scouting.web.ui.PartidoView_Roo_VaadinEntityView"/>
+<aspect name="com.meplayer.scouting.Agente_Roo_JavaBean"/>
+<aspect name="com.meplayer.scouting.web.ui.PartidoForm_Roo_VaadinVisuallyComposableEntityForm"/>
+<aspect name="com.meplayer.scouting.web.ui.JugadorForm_Roo_VaadinVisuallyComposableEntityForm"/>
+<aspect name="com.meplayer.scouting.Agente_Roo_ToString"/>
+<aspect name="com.meplayer.scouting.web.ui.JugadorView_Roo_VaadinEntityView"/>
+<aspect name="com.meplayer.scouting.web.ui.AgenteView_Roo_VaadinEntityView"/>
+<aspect name="com.meplayer.scouting.Jugador_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+
